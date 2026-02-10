@@ -1,4 +1,39 @@
-valentine-story
-  index.html
-  style.css
-  script.js
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Little Love Story 💖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <header class="header">
+      <div class="badge">Valentine’s Quest</div>
+      <h1 id="title">Our Choose-Your-Own Love Story</h1>
+      <p id="subtitle">Made with love (and JavaScript).</p>
+    </header>
+
+    <section class="scene">
+      <p id="text" class="text"></p>
+      <div id="choices" class="choices"></div>
+
+      <div id="meta" class="meta">
+        <span id="progress"></span>
+        <span id="score"></span>
+      </div>
+
+      <div class="controls">
+        <button id="backBtn" class="btn ghost" type="button">← Back</button>
+        <button id="restartBtn" class="btn" type="button">Restart ↻</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>💌 Tip: personalize the text in <code>script.js</code></span>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
